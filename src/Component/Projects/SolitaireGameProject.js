@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import Github from "../../Assets/githubonly.png";
 import S1 from "../../Assets/soli1.PNG";
 import Score from "../../Assets/s-score.PNG";
-import S4 from "../../Assets/soli5.JPG";
 import Klondike from "../../Assets/s-klondike.JPG";
 import Vegas from "../../Assets/s-vegas.JPG";
 import Draw1 from "../../Assets/s-draw1.PNG";

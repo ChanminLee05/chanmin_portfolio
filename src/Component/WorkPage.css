@@ -29,6 +29,7 @@
     transition: transform 0.3s ease;
     font-family: "Kanit", sans-serif;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    cursor: none;
 }
 
 .card-title {

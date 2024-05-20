@@ -70,8 +70,6 @@ export default function WorkPage() {
                                 <p className="project-type-txt">Individual</p>
                             </div>
                             <img src={Robot} alt="robot" className="custom-img robot-img"></img>
-                            {/*<p className="card-text">The "Chat Bot Project" is an innovative online shopping website featuring a responsive chatbot functionality built with HTML, CSS, JavaScript, and Java.*/}
-                            {/*    Users can seamlessly interact with the chatbot for inquiries, enjoy secure login/logout functionalities, and conveniently manage their shopping carts, ensuring a seamless and secure online shopping experience.</p>*/}
                         </div>
                     </Link>
                 </div>
@@ -92,8 +90,6 @@ export default function WorkPage() {
                                 <p className="project-type-txt">Individual</p>
                             </div>
                             <img src={NewsImg} alt="news" className="custom-img news-img"></img>
-                            {/*<p className="card-text">The "News API Project" provides users with easy access to the latest news articles across diverse categories including Apple, Tesla, Business, Technology, and the Wall Street Journal.*/}
-                            {/*    With seamless API integration, users can effortlessly stay informed with regularly updated news content, ensuring a simple and convenient browsing experience.</p>*/}
                         </div>
                     </Link>
                 </div>
@@ -114,8 +110,6 @@ export default function WorkPage() {
                                 <p className="project-type-txt">Group</p>
                             </div>
                             <img src={Cards} alt="cards" className="custom-img cards-img"></img>
-                            {/*<p className="card-text">The "Solitaire Game Project" is an engaging Java-based endeavor, offering users the opportunity to enjoy classic solitaire gameplay with a modern twist.*/}
-                            {/*    With the ability to select between Klondike or Vegas Rule variants, users can immerse themselves in a challenging and entertaining solitaire experience, providing hours of fun and entertainment for players.</p>*/}
                         </div>
                     </Link>
                 </div>

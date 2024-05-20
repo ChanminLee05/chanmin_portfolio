@@ -76,7 +76,6 @@ export default function NewsAPIProject() {
                     <h5 className="w-title">Explore More News: Simply Click to Load</h5>
                     <div className="w3-img-container">
                         <img src={N3} className="d-block w-100 w3-img" alt="..."/>
-                        {/*<img src={W4} className="d-block w-100 w4-img" alt="..."/>*/}
                     </div>
                 </div>
 
