@@ -1,6 +1,5 @@
 import React from 'react';
 import './AboutPage.css';
-import Profile from '../Assets/example-portrait.jpg';
 import java from "../Assets/java.webp";
 import html from "../Assets/html.png";
 import css from "../Assets/css.png";
@@ -10,12 +9,12 @@ import php from "../Assets/php.png";
 import linux from "../Assets/linux.png";
 import mongoDB from "../Assets/mongoDB.png"
 import github from "../Assets/github.png"
-import jira from "../Assets/jira.JPG"
-import bootstrap from "../Assets/bootstrap.JPG"
+import jira from "../Assets/jira.png"
+import bootstrap from "../Assets/bootstrap.png"
 import docker from "../Assets/docker.png"
 import react from "../Assets/react.png"
 import rest from "../Assets/rest-api.png"
-import spring from "../Assets/spring-boot.JPG"
+import spring from "../Assets/spring-boot.png"
 import jpa from "../Assets/jpa.webp"
 import MyPic from "../Assets/portfolio-pic.jpg";
 
