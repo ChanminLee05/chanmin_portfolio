@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import WhatToEatProject from "./Component/Projects/WhatToEatProject";
+import MainPage from "./Component/MainPage";
+import ChatBotProject from "./Component/Projects/ChatBotProject";
+import NewsAPIProject from "./Component/Projects/NewsAPIProject";
+import SolitaireGameProject from "./Component/Projects/SolitaireGameProject";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <Routes>
+          <Route index element={<MainPage/>} />
+          <Route path="/main" element={<MainPage/>} />
+          <Route path="/WhatToEat" element={<WhatToEatProject />} />
+          <Route path="/ChatBot" element={<ChatBotProject />} />
+          <Route path="/NewsAPI" element={<NewsAPIProject />} />
+          <Route path="/Solitaire" element={<SolitaireGameProject />} />
+        </Routes>
+      </Router>
   );
 }
 

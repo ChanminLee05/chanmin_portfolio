@@ -1,0 +1,62 @@
+.about-title {
+    display: flex;
+    margin: 5vw 0 3vw 10vw;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.line-break {
+    height: 2px;
+    background-color: black;
+    margin: 0 10vw 3vw 10vw;
+}
+
+.info-container {
+    margin: 0 10vw 10vw 10vw;
+}
+
+.info1 {
+    text-align: left;
+}
+
+.myImg {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    margin-top: 5vw;
+    margin-left: 5vw;
+}
+
+.info2 {
+    text-align: left;
+}
+
+.info2-about {
+    font-size: 1vw;
+}
+
+.ed-container {
+    margin-bottom: 1.5vw;
+}
+
+.info2-ed {
+    font-size: 1vw;
+    color: #3a68b7;
+    margin: 0;
+}
+
+.info2-sub {
+    font-size: 1vw;
+}
+
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.skill-img {
+    width: 4.5vw;
+    height: 3.5vw;
+    margin-top: 1vw;
+}

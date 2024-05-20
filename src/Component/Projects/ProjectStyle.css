@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.project {
+    margin: 3vw 10vw 3vw 10vw;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.git-img {
+    width: 4vw;
+    height: 4vw;
+    position: absolute;
+    right: 12vw;
+    top: 5vw;
+}
+
+.project-title {
+    font-family: "Kanit", sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    margin: 4vw 0 2vw 0;
+}
+
+/*Introduction*/
+.intro1 {
+    margin: 0 5vw;
+}
+
+.intro1-txt {
+    font-size: 1vw;
+    text-align: start;
+}
+
+.project-intro {
+    display: flex;
+    justify-content: flex-start;
+    margin: 1vw 4vw;
+    column-gap: 2vw;
+}
+
+.intro-title {
+    color: #3a68b7;
+    font-size: 1.5vw;
+}
+
+.intro2-list {
+    list-style-type: "- ";
+    font-size: 1vw;
+    text-align: start;
+    margin-left: -1vw;
+
+}
+
+.intro3-txt {
+    font-size: 1vw;
+}
+
+.intro4-txt {
+    font-size: 1vw;
+}
+
+/*CS-section*/
+.cs-container {
+    margin: 2vw 14.5vw;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 50vw;
+    height: 19vw;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.flipped {
+    width: 50vw;
+    height: 24vw;
+}
+
+.flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    background-color: #f1dba0;
+    border-radius: 8px;
+}
+
+.flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    padding: 2vw;
+}
+
+.flip-card-front {
+    z-index: 2;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+
+.cs-title {
+    color: #3a68b7;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+}
+
+.c-list {
+    font-size: 1.3vw;
+    list-style-type: none;
+    margin: 1vw 0 1vw -2vw;
+}
+
+.c-list i, .s-list i {
+    margin-right: 1vw;
+}
+
+.s-list{
+    font-size: 1.2vw;
+    list-style-type: none;
+    margin: 1vw 0 1vw -2vw;
+}
+/*Progress-section*/
+.progress-container {
+    margin: 2vw 5vw 1vw 5vw;
+}
+
+.progress-title {
+    font-size: 2vw;
+    margin-bottom: 2vw;
+    padding-bottom: 1.5vw;
+    border-bottom: 1px solid black;
+}
+
+.progress-item {
+    margin-bottom: 2vw;
+}
+
+.item1 {
+    color: #40c4c4;
+    font-size: 1.5vw;
+}
+
+.item2 {
+    color: #9473e7;
+    font-size: 1.5vw;
+}
+
+.item-txt {
+    font-size: 1vw;
+}
+
+/*Description-section*/
+.desc-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 3vw;
+    margin: 0 2vw 4vw 2vw;
+}
+
+.desc-title {
+    font-size: 2vw;
+    margin: 2vw 3vw;
+    padding-bottom: 1.5vw;
+    border-bottom: 1px solid black;
+}
+
+.w-slide {
+    margin: 0 8vw;
+}
+
+.w-img {
+    width: 60%;
+    height: 30vw;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.version-img1 {
+    position: absolute;
+    top: 15vw;
+    left: 15vw;
+    width: 9vw;
+    height: 5vw;
+    z-index: 1;
+}
+
+.version-img2 {
+    position: absolute;
+    top: 15vw;
+    left: 35vw;
+    width: 9vw;
+    height: 5vw;
+    z-index: 1;
+}
+
+.w-title {
+    font-size: 1.5vw;
+    color: #2b7e8a;
+}
+
+.w3-img-container {
+    display: flex;
+    column-gap: 1vw;
+    padding: 0.5vw;
+    width: 58vw;
+    height: 30vw;
+    background-color: #eae5e5;
+    border-radius: 10px;
+}
+
+.time-img1 {
+    position: relative;
+    top: 5vw;
+    width: 25vw;
+    height: 16vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 2vw;
+}
+
+.time-img2 {
+    position: relative;
+    top: 5vw;
+    width: 25vw;
+    height: 16vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 2vw;
+}
+
+.bi-arrow-right {
+    font-size: 2.5vw;
+    position: relative;
+    top: 12vw;
+    right: 1vw;
+}
+
+.w4-img-container {
+    display: flex;
+    width: 58vw;
+    height: 30vw;
+    background-color: #eae5e5;
+    border-radius: 10px;
+}
+
+.draw-img1 {
+    position: relative;
+    top: 3vw;
+    left: 15vw;
+    width: 20vw;
+    height: 10vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 2vw;
+}
+
+.draw-img2 {
+    position: relative;
+    top: 15vw;
+    left: 2vw;
+    width: 20vw;
+    height: 10vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 2vw;
+}
+
+.what-to-eat-link {
+    text-decoration: none;
+    color: white;
+}
