@@ -41,7 +41,8 @@ export default function WorkPage() {
             <div className="line-break"></div>
             <div className="work-space">
                 <div className="card card1">
-                    <Link to="/WhatToEat" target="_blank" className="card-link"><img src={Roulette} className="card-img-top project-img" alt="roulette"/>
+                    <Link to="/WhatToEat" className="card-link">
+                        <img src={Roulette} className="card-img-top project-img" alt="roulette"/>
                         <div className="card-body">
                             <h3 className="card-title">What To Eat</h3>
                             <div className="skill-used">
@@ -61,7 +62,8 @@ export default function WorkPage() {
                     </Link>
                 </div>
                 <div className="card card2">
-                    <Link to="/ChatBot" target="_blank" className="card-link"><img src={Chatbot} className="card-img-top project-img" alt="roulette"/>
+                    <Link to="/ChatBot" className="card-link">
+                        <img src={Chatbot} className="card-img-top project-img" alt="roulette"/>
                         <div className="card-body">
                             <h3 className="card-title">Chat Bot Project</h3>
                             <div className="skill-used">
@@ -81,7 +83,8 @@ export default function WorkPage() {
                     </Link>
                 </div>
                 <div className="card card3">
-                    <Link to="/NewsAPI" target="_blank" className="card-link"><img src={News} className="card-img-top project-img" alt="roulette"/>
+                    <Link to="/NewsAPI" className="card-link">
+                        <img src={News} className="card-img-top project-img" alt="roulette"/>
                         <div className="card-body">
                             <h3 className="card-title">News API Project</h3>
                             <div className="skill-used">
@@ -101,7 +104,8 @@ export default function WorkPage() {
                     </Link>
                 </div>
                 <div className="card card4">
-                    <Link to="/Solitaire" target="_blank" className="card-link"><img src={Solitaire} className="card-img-top project-img" alt="solitaire"/>
+                    <Link to="/Solitaire" className="card-link">
+                        <img src={Solitaire} className="card-img-top project-img" alt="solitaire"/>
                         <div className="card-body">
                             <h3 className="card-title">Solitaire Game Project</h3>
                             <div className="skill-used">
@@ -121,7 +125,6 @@ export default function WorkPage() {
                     </Link>
                 </div>
             </div>
-
         </div>
     )
 }
