@@ -14,16 +14,23 @@ export default function WorkPage() {
 
     useEffect(() => {
         const handleMouseMove = (event) => {
-            const x = event.pageX - event.currentTarget.offsetLeft;
-            const y = event.pageY - event.currentTarget.offsetTop;
-            const img = event.currentTarget.querySelector('.custom-img');
+            const card = event.currentTarget;
+            const rect = card.getBoundingClientRect();
+            const x = event.clientX - rect.left;
+            const y = event.clientY - rect.top;
+            const img = card.querySelector('.custom-img');
             img.style.left = `${x}px`;
             img.style.top = `${y}px`;
         };
 
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(card => {
+            card.addEventListener('mousemove', handleMouseMove);
+        });
+
         return () => {
-            document.querySelectorAll('.card').forEach(card => {
-                card.addEventListener('mousemove', handleMouseMove);
+            cards.forEach(card => {
+                card.removeEventListener('mousemove', handleMouseMove);
             });
         };
     }, []);

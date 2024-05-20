@@ -17,6 +17,7 @@ import react from "../Assets/react.png"
 import rest from "../Assets/rest-api.png"
 import spring from "../Assets/spring-boot.JPG"
 import jpa from "../Assets/jpa.webp"
+import MyPic from "../Assets/portfolio-pic.jpg";
 
 export default function AboutPage() {
     return(
@@ -25,12 +26,20 @@ export default function AboutPage() {
             <div className="line-break"></div>
             <div className="info-container row">
                 <div className="info1 col-6">
-                    <img className="myImg" src={Profile} alt="profile"/>
+                    <img className="myImg" src={MyPic} alt="profile"/>
                 </div>
                 <div className="info2 col-6">
                     <h4>About me</h4>
-                        <p className="info2-about"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse explicabo nam necessitatibus, perspiciatis reprehenderit similique velit.
-                            Architecto asperiores cum eius fuga maxime obcaecati omnis quo voluptates! Atque cupiditate eveniet fugiat.</p>
+                    <p className="info2-about">
+                        Hello World!
+                    </p>
+                    <p className="info2-about"> My name is Chanmin Lee, a recent graduate with a strong background in computer programming, particularly in Java, front-end development, API integration, and SQL.
+                        I have demonstrated my skills through personal projects, including integrating the News API into a personal application using HTML, CSS, React, Bootstrap, and JavaScript.
+                        Additionally, I have refined my frontend development skills by creating user-friendly interfaces and designing complex database structures to ensure efficient data management.
+                    </p>
+                    <p className="info2-about">
+                        In my free time, I enjoy camping and playing computer games.
+                    </p>
                     <h4>Education</h4>
                         <div className="ed-container">
                             <p className="info2-ed">Computer Programming, Diploma</p>
