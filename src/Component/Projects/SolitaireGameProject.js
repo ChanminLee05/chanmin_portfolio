@@ -11,6 +11,7 @@ import Time2 from "../../Assets/s-time2.PNG";
 import Undo1 from "../../Assets/s-undo1.PNG";
 import Undo2 from "../../Assets/s-undo2.PNG";
 import Finish from "../../Assets/s-finish.PNG";
+import SolitaireJar from "../../Assets/Solitaire.jar";
 
 export default function SolitaireGameProject() {
     const [showChallenge, setShowChallenge] = useState(true);
@@ -47,7 +48,7 @@ export default function SolitaireGameProject() {
                 </div>
             </div>
             <div className="cs-container">
-                <div className={`flip-card ${showChallenge ? '' : 'flipped'}`} onClick={toggleShowChallenge}>
+                <div className={`solitaire-flip-card ${showChallenge ? '' : 'flipped'}`} onClick={toggleShowChallenge}>
                     <div className="flip-card-inner">
                         <div className="flip-card-front challenge">
                             <h1 className="cs-title">Challenge</h1>
@@ -158,8 +159,11 @@ export default function SolitaireGameProject() {
                 </div>
             </div>
 
-            <button className="btn btn-dark d-grid"><a src="#">Learn More</a></button>
-
+            <button className="btn btn-dark d-grid">
+                <a href={SolitaireJar} download="Solitaire.jar" className="link-to-download">
+                    Learn More
+                </a>
+            </button>
         </div>
     );
 }

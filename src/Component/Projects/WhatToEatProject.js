@@ -50,8 +50,11 @@ export default function WhatToEatProject() {
                   <p className="item-txt">Implemented core functionalities such as meal selection, category filtering, and recipe integration.</p>
               </div>
               <div className="progress-item">
-                  <h3 className="item3">Week 3: Design and Testing</h3>
-                  <p className="item-txt">Worked on UI/UX design aspects to enhance user experience. Conducted rigorous testing to ensure functionality across different devices and browsers.</p>
+                  <h3 className="item3">Week 3: Design, Testing, and Deployment</h3>
+                  <p className="item-txt">Worked on UI/UX design aspects to enhance user experience.
+                      Conducted rigorous testing to ensure functionality across different devices and browsers.
+                      Successfully deployed the web service on Netlify, ensuring accessibility and reliability for users.
+                  </p>
               </div>
           </div>
           <div className="desc-container">

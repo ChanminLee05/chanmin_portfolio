@@ -6,8 +6,9 @@ import N3 from "../../Assets/n-load.JPG";
 import Github from "../../Assets/githubonly.png";
 
 export default function NewsAPIProject() {
-    function handleError() {
-        window.alert("Unable to deploy this site because newsapi.org only allows data fetching on localhost. Please check GitHub instead.")
+
+    function errorMessage() {
+        window.alert("Due to restriction from NewsAPI.org, it only allows localhost to fetch data")
     }
 
     return(
@@ -52,7 +53,9 @@ export default function NewsAPIProject() {
             <p className="item-txt">Refined the user interface and added features such as pagination or infinite scrolling.
                 Conducted testing to ensure proper functionality across different browsers and devices.
                 Addressed any bugs or issues identified during testing.
-                Prepared the project for deployment and deployed it to a hosting platform for public access.</p>
+                Prepared the project for deployment. However, due to new restrictions from NewsAPI that prevent data fetching from browsers and only allow localhost access,
+                the project could not be fully deployed as intended.
+            </p>
         </div>
     </div>
     <div className="desc-container">
@@ -91,7 +94,11 @@ export default function NewsAPIProject() {
         </div>
     </div>
 
-    <button className="btn btn-dark d-grid" onClick={handleError}>Lear More</button>
+    <button className="btn btn-dark d-grid">
+        <a href="https://main--nexushub-news.netlify.app/" className="link-to-news" onClick={errorMessage}>
+            Learn More
+        </a>
+    </button>
 
 </div>
     );

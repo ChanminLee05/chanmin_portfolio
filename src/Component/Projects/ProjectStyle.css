@@ -47,10 +47,10 @@
 }
 
 .intro2-list {
-    list-style-type: "- ";
+    list-style-type: none;
     font-size: 1vw;
     text-align: start;
-    margin-left: -1vw;
+    margin-left: -1.5vw;
 
 }
 
@@ -67,10 +67,18 @@
     margin: 2vw 14.5vw;
 }
 
-.flip-card {
+.solitaire-flip-card {
     background-color: transparent;
     width: 50vw;
     height: 19vw;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.nexus-flip-card {
+    background-color: transparent;
+    width: 50vw;
+    height: 26vw;
     perspective: 1000px;
     cursor: pointer;
 }
@@ -89,7 +97,8 @@
     border-radius: 8px;
 }
 
-.flip-card.flipped .flip-card-inner {
+.nexus-flip-card.flipped .flip-card-inner,
+.solitaire-flip-card.flipped .flip-card-inner {
     transform: rotateY(180deg);
 }
 
@@ -278,7 +287,54 @@
     margin-right: 2vw;
 }
 
+.carousel-container {
+    height: 30vw;
+}
+
+.product-img {
+    position: absolute;
+    width: 60%;
+}
+
+.product-img1 {
+    z-index: 0;
+    top: 10vw;
+    left: 0;
+}
+
+.product-img2 {
+    z-index: 1;
+    top: 6vw;
+    left: 7vw;
+}
+
+.product-img3 {
+    z-index: 2;
+    top: 3vw;
+    left: 15vw;
+}
+
+.product-img4 {
+    z-index: 3;
+    top: 0;
+    left: 23vw;
+}
+
+.carousel-control-next {
+    z-index: 5;
+}
+
 .what-to-eat-link {
+    text-decoration: none;
+    color: white;
+}
+
+.link-to-news {
+    text-decoration: none;
+    color: white;
+}
+
+.link-to-download {
     text-decoration: none;
     color: white;
 }
