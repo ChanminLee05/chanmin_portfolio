@@ -65,14 +65,14 @@ export default function WorkPage() {
                     <Link to="/ChatBot" className="card-link">
                         <img src={Chatbot} className="card-img-top project-img" alt="roulette"/>
                         <div className="card-body">
-                            <h3 className="card-title">Chat Bot Project</h3>
+                            <h3 className="card-title">E-commerce Website Project</h3>
                             <div className="skill-used">
                                 <h5 className="skill-title">Skills</h5>
-                                <p className="skill-txt">HTML, CSS, Java, MySQL, Apache Tomcat</p>
+                                <p className="skill-txt">Java, React, HTML, CSS, MySQL, Springboot JPA</p>
                             </div>
                             <div className="duration">
                                 <h5 className="duration-title">Duration</h5>
-                                <p className="duration-txt">1 month</p>
+                                <p className="duration-txt">3 months</p>
                             </div>
                             <div className="project-type">
                                 <h5 className="project-type-title">Project Type</h5>
