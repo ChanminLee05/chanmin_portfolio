@@ -24,10 +24,23 @@ export default function FirstPage() {
                 <h2 className="greeting-txt2">Based in Edmonton, AB</h2>
             </div>
             <div className="profile-container">
-                <button type="button" className="btn"><img className="profile-img" src={Github} alt="github"/></button>
-                <button type="button" className="btn"><img className="profile-img" src={LinkedIn} alt="linkedin"/></button>
-                <button type="button" className="btn"><img className="profile-img" src={Mail} alt="mail"/></button>
+                <a href="https://github.com/ChanminLee05" target="_blank" rel="noopener noreferrer">
+                    <button type="button" className="btn">
+                        <img className="profile-img" src={Github} alt="github"/>
+                    </button>
+                </a>
+                <a href="https://www.linkedin.com/in/andrew-lee-243b0b125" target="_blank" rel="noopener noreferrer">
+                    <button type="button" className="btn">
+                        <img className="profile-img" src={LinkedIn} alt="linkedin"/>
+                    </button>
+                </a>
+                <a href="mailto:lee.chanmin1@gamil.com" target="_blank" rel="noopener noreferrer">
+                    <button type="button" className="btn">
+                        <img className="profile-img" src={Mail} alt="mail"/>
+                    </button>
+                </a>
             </div>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="btn goback-btn"><i className="bi bi-arrow-up-circle"></i></a>
         </>
     )
