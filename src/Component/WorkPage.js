@@ -9,6 +9,7 @@ import Pizza from '../Assets/pizza.png';
 import Robot from '../Assets/robot.png';
 import NewsImg from '../Assets/news.png';
 import Cards from '../Assets/cards.png';
+import HairMain from '../Assets/hair-salon-main.png';
 
 export default function WorkPage() {
 
@@ -47,7 +48,7 @@ export default function WorkPage() {
                             <h3 className="card-title">What To Eat</h3>
                             <div className="skill-used">
                                 <h5 className="skill-title">Skills</h5>
-                                <p className="skill-txt">HTML, CSS, React.js, HTML, Bootstrap</p>
+                                <p className="skill-txt">HTML, CSS, React, Bootstrap</p>
                             </div>
                             <div className="duration">
                                 <h5 className="duration-title">Duration</h5>
@@ -89,7 +90,7 @@ export default function WorkPage() {
                             <h3 className="card-title">News API Project</h3>
                             <div className="skill-used">
                                 <h5 className="skill-title">Skills</h5>
-                                <p className="skill-txt">HTML, CSS, React.js, HTML, Bootstrap</p>
+                                <p className="skill-txt">HTML, CSS, React, Bootstrap</p>
                             </div>
                             <div className="duration">
                                 <h5 className="duration-title">Duration</h5>
@@ -119,6 +120,27 @@ export default function WorkPage() {
                             <div className="project-type">
                                 <h5 className="project-type-title">Project Type</h5>
                                 <p className="project-type-txt">Group</p>
+                            </div>
+                            <img src={Cards} alt="cards" className="custom-img cards-img"></img>
+                        </div>
+                    </Link>
+                </div>
+                <div className="card card5">
+                    <Link to="/HairSalon" className="card-link">
+                        <img src={HairMain} className="card-img-top project-img" alt="hair salon"/>
+                        <div className="card-body">
+                            <h3 className="card-title">Hair Salon Project</h3>
+                            <div className="skill-used">
+                                <h5 className="skill-title">Skills</h5>
+                                <p className="skill-txt">HTML, CSS, React, TypeScript, BootStrap</p>
+                            </div>
+                            <div className="duration">
+                                <h5 className="duration-title">Duration</h5>
+                                <p className="duration-txt">2 weeks</p>
+                            </div>
+                            <div className="project-type">
+                                <h5 className="project-type-title">Project Type</h5>
+                                <p className="project-type-txt">Individual</p>
                             </div>
                             <img src={Cards} alt="cards" className="custom-img cards-img"></img>
                         </div>

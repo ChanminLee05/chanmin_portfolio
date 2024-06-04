@@ -5,6 +5,7 @@ import MainPage from "./Component/MainPage";
 import ChatBotProject from "./Component/Projects/ChatBotProject";
 import NewsAPIProject from "./Component/Projects/NewsAPIProject";
 import SolitaireGameProject from "./Component/Projects/SolitaireGameProject";
+import HairSalonProject from "./Component/Projects/HairSalonProject";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/ChatBot" element={<ChatBotProject />} />
           <Route path="/NewsAPI" element={<NewsAPIProject />} />
           <Route path="/Solitaire" element={<SolitaireGameProject />} />
+          <Route path="/HairSalon" element={<HairSalonProject />} />
         </Routes>
       </Router>
   );
