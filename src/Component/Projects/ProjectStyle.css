@@ -45,13 +45,14 @@
     color: #3a68b7;
     font-size: 1.5vw;
 }
-
+.intro2 ul {
+    padding: 0;
+}
 .intro2-list {
     list-style-type: none;
     font-size: 1vw;
     text-align: start;
-    margin-left: -1.5vw;
-
+    margin-bottom: 1vw;
 }
 
 .intro3-txt {
@@ -218,6 +219,7 @@
 .w-title {
     font-size: 1.5vw;
     color: #2b7e8a;
+    margin-bottom: 2vw;
 }
 
 .w3-img-container {

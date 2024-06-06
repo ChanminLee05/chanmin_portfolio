@@ -10,6 +10,7 @@ import Robot from '../Assets/robot.png';
 import NewsImg from '../Assets/news.png';
 import Cards from '../Assets/cards.png';
 import HairMain from '../Assets/hair-salon-main.png';
+import HairSalon from '../Assets/hair-salon.png';
 
 export default function WorkPage() {
 
@@ -142,7 +143,7 @@ export default function WorkPage() {
                                 <h5 className="project-type-title">Project Type</h5>
                                 <p className="project-type-txt">Individual</p>
                             </div>
-                            <img src={Cards} alt="cards" className="custom-img cards-img"></img>
+                            <img src={HairSalon} alt="cards" className="custom-img cards-img"></img>
                         </div>
                     </Link>
                 </div>

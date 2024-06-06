@@ -15,8 +15,9 @@ import docker from "../Assets/docker.png"
 import react from "../Assets/react.png"
 import rest from "../Assets/rest-api.png"
 import spring from "../Assets/spring-boot.png"
-import jpa from "../Assets/jpa.webp"
+import jpa from "../Assets/jpa.png"
 import MyPic from "../Assets/portfolio-pic.jpg";
+import typescript from "../Assets/typescript.png";
 
 export default function AboutPage() {
     return(
@@ -33,7 +34,7 @@ export default function AboutPage() {
                         Hello World!
                     </p>
                     <p className="info2-about"> My name is Chanmin Lee, a recent graduate with a strong background in computer programming, particularly in Java, front-end development, API integration, and SQL.
-                        I have demonstrated my skills through personal projects, including integrating the News API into a personal application using HTML, CSS, React, Bootstrap, and JavaScript.
+                        I have demonstrated my skills through personal projects, including integrating the E-commerce website into a personal application using HTML, CSS, Bootstrap, React, Java, and MySQL.
                         Additionally, I have refined my frontend development skills by creating user-friendly interfaces and designing complex database structures to ensure efficient data management.
                     </p>
                     <p className="info2-about">
@@ -54,6 +55,7 @@ export default function AboutPage() {
                         <img className="skill-img" src={css} alt={css}/>
                         <img className="skill-img" src={js} alt={js}/>
                         <img className="skill-img" src={react} alt={react}/>
+                        <img className="skill-img" src={typescript} alt={typescript}/>
                         <img className="skill-img" src={bootstrap} alt={bootstrap}/>
                         <img className="skill-img" src={java} alt={java}/>
                         <img className="skill-img" src={php} alt={php}/>
