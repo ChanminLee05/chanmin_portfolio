@@ -32,7 +32,7 @@ export default function WhatToEatProject() {
               </div>
               <div className="intro3 col-3">
                   <h4 className="intro-title">Technologies Used</h4>
-                  <p className="intro3-txt">HTML, CSS, React.js, Bootstrap</p>
+                  <p className="intro3-txt">React.js, Bootstrap, JSX, CSS</p>
               </div>
               <div className="intro4 col-4">
                   <h4 className="intro-title">Challenges and Solutions</h4>

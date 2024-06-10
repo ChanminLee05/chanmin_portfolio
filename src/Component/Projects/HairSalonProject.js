@@ -29,7 +29,7 @@ const HairSalonProject = () => {
                 </div>
                 <div className="intro3 col-3">
                     <h4 className="intro-title">Technologies Used</h4>
-                    <p className="intro3-txt">HTML, CSS, React, TypeScript, Bootstrap</p>
+                    <p className="intro3-txt">React, TypeScript, Bootstrap, JSX, CSS</p>
                 </div>
                 <div className="intro4 col-5">
                     <h4 className="intro-title">Challenges and Solutions</h4>

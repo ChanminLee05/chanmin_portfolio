@@ -49,7 +49,7 @@ export default function WorkPage() {
                             <h3 className="card-title">What To Eat</h3>
                             <div className="skill-used">
                                 <h5 className="skill-title">Skills</h5>
-                                <p className="skill-txt">HTML, CSS, React, Bootstrap</p>
+                                <p className="skill-txt">React, Bootstrap, JSX, CSS</p>
                             </div>
                             <div className="duration">
                                 <h5 className="duration-title">Duration</h5>
@@ -70,7 +70,7 @@ export default function WorkPage() {
                             <h3 className="card-title">E-commerce Website Project</h3>
                             <div className="skill-used">
                                 <h5 className="skill-title">Skills</h5>
-                                <p className="skill-txt">Java, React, HTML, CSS, MySQL, Springboot JPA</p>
+                                <p className="skill-txt">Java, React, JSX, CSS, MySQL, Springboot JPA</p>
                             </div>
                             <div className="duration">
                                 <h5 className="duration-title">Duration</h5>
@@ -91,7 +91,7 @@ export default function WorkPage() {
                             <h3 className="card-title">News API Project</h3>
                             <div className="skill-used">
                                 <h5 className="skill-title">Skills</h5>
-                                <p className="skill-txt">HTML, CSS, React, Bootstrap</p>
+                                <p className="skill-txt">React, Bootstrap, JSX, CSS </p>
                             </div>
                             <div className="duration">
                                 <h5 className="duration-title">Duration</h5>
@@ -133,7 +133,7 @@ export default function WorkPage() {
                             <h3 className="card-title">Hair Salon Project</h3>
                             <div className="skill-used">
                                 <h5 className="skill-title">Skills</h5>
-                                <p className="skill-txt">HTML, CSS, React, TypeScript, BootStrap</p>
+                                <p className="skill-txt">React, TypeScript, BootStrap, JSX, CSS</p>
                             </div>
                             <div className="duration">
                                 <h5 className="duration-title">Duration</h5>

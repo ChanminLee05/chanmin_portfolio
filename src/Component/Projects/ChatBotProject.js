@@ -50,7 +50,7 @@ export default function ChatBotProject() {
                 </div>
                 <div className="intro3 col-3">
                     <h4 className="intro-title">Technologies Used</h4>
-                    <p className="intro3-txt">HTML, CSS, React.js, Bootstrap, Java, Springboot JPA</p>
+                    <p className="intro3-txt">React.js, Bootstrap, Java, Springboot JPA, JSX, CSS </p>
                 </div>
             </div>
             <div className="cs-container">
