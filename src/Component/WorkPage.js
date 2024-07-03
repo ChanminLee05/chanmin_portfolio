@@ -11,6 +11,8 @@ import NewsImg from '../Assets/news.png';
 import Cards from '../Assets/cards.png';
 import HairMain from '../Assets/hair-salon-main.png';
 import HairSalon from '../Assets/hair-salon.png';
+import ReactGuide from '../Assets/react-guide.PNG';
+import ReactImg from '../Assets/react.png';
 
 export default function WorkPage() {
 
@@ -85,23 +87,23 @@ export default function WorkPage() {
                     </Link>
                 </div>
                 <div className="card card3">
-                    <Link to="/NewsAPI" className="card-link">
-                        <img src={News} className="card-img-top project-img" alt="roulette"/>
+                    <Link to="/ReactGuide" className="card-link">
+                        <img src={ReactGuide} className="card-img-top project-img" alt="reactguide"/>
                         <div className="card-body">
-                            <h3 className="card-title">News API Project</h3>
+                            <h3 className="card-title">React Guide Project</h3>
                             <div className="skill-used">
                                 <h5 className="skill-title">Skills</h5>
-                                <p className="skill-txt">React, Bootstrap, JSX, CSS </p>
+                                <p className="skill-txt">React, TypeScript, Bootstrap, JSX, CSS </p>
                             </div>
                             <div className="duration">
                                 <h5 className="duration-title">Duration</h5>
-                                <p className="duration-txt">2 weeks</p>
+                                <p className="duration-txt">1 week</p>
                             </div>
                             <div className="project-type">
                                 <h5 className="project-type-title">Project Type</h5>
                                 <p className="project-type-txt">Individual</p>
                             </div>
-                            <img src={NewsImg} alt="news" className="custom-img news-img"></img>
+                            <img src={ReactImg} alt="news" className="custom-img news-img"></img>
                         </div>
                     </Link>
                 </div>
@@ -144,6 +146,27 @@ export default function WorkPage() {
                                 <p className="project-type-txt">Individual</p>
                             </div>
                             <img src={HairSalon} alt="cards" className="custom-img cards-img"></img>
+                        </div>
+                    </Link>
+                </div>
+                <div className="card card6">
+                    <Link to="/NewsAPI" className="card-link">
+                        <img src={News} className="card-img-top project-img" alt="roulette"/>
+                        <div className="card-body">
+                            <h3 className="card-title">News API Project</h3>
+                            <div className="skill-used">
+                                <h5 className="skill-title">Skills</h5>
+                                <p className="skill-txt">React, Bootstrap, JSX, CSS </p>
+                            </div>
+                            <div className="duration">
+                                <h5 className="duration-title">Duration</h5>
+                                <p className="duration-txt">2 weeks</p>
+                            </div>
+                            <div className="project-type">
+                                <h5 className="project-type-title">Project Type</h5>
+                                <p className="project-type-txt">Individual</p>
+                            </div>
+                            <img src={NewsImg} alt="news" className="custom-img news-img"></img>
                         </div>
                     </Link>
                 </div>

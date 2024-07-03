@@ -6,6 +6,7 @@ import ChatBotProject from "./Component/Projects/ChatBotProject";
 import NewsAPIProject from "./Component/Projects/NewsAPIProject";
 import SolitaireGameProject from "./Component/Projects/SolitaireGameProject";
 import HairSalonProject from "./Component/Projects/HairSalonProject";
+import ReactGuideProject from "./Component/Projects/ReactGuideProject";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/NewsAPI" element={<NewsAPIProject />} />
           <Route path="/Solitaire" element={<SolitaireGameProject />} />
           <Route path="/HairSalon" element={<HairSalonProject />} />
+          <Route path="/ReactGuide" element={<ReactGuideProject />} />
         </Routes>
       </Router>
   );
