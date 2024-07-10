@@ -159,7 +159,7 @@ export default function SolitaireGameProject() {
                 </div>
             </div>
 
-            <button className="btn btn-dark d-grid">
+            <button className="btn btn-dark d-grid learn-btn">
                 <a href={SolitaireJar} download="Solitaire.jar" className="link-to-download">
                     Learn More
                 </a>

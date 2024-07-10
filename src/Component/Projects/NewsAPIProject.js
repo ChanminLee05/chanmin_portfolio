@@ -94,7 +94,7 @@ export default function NewsAPIProject() {
         </div>
     </div>
 
-    <button className="btn btn-dark d-grid">
+    <button className="btn btn-dark d-grid learn-btn">
         <a href="https://main--nexushub-news.netlify.app/" className="link-to-news" onClick={errorMessage}>
             Learn More
         </a>

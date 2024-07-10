@@ -13,44 +13,50 @@ export default function ReactGuideProject() {
             <h1 className="project-title">React Guide Project</h1>
             <div className="intro1">
                 <p className="intro1-txt">
-                    This is my first project utilizing React and API technologies.
-                    User can discover the latest news effortlessly with this web site, leveraging the comprehensive features of NewsAPI.
-                    Select from diverse categories like technology, business, Apple, Tesla, and insights from the Wall Street Journal, and dive into news articles with just a click.
+                    The React Guide Project is an educational platform designed to provide beginners with a comprehensive introduction to React.js.
+                    Developed with a focus on accessibility and intuitive learning, this project employs interactive features such as a brainstorm map to help users grasp React's fundamental concepts effectively.
+                    Through clear explanations and practical examples, the React Guide Project aims to empower aspiring developers to build solid foundations in React.js development.
                 </p>
             </div>
             <div className="project-intro row">
                 <div className="intro2 col-3">
                     <h4 className="intro-title">Features</h4>
                     <ul>
-                        <li className="intro2-list">Category Selection</li>
-                        <li className="intro2-list">Stay up-to-date with the latest headlines using API</li>
+                        <li className="intro2-list">Brainstorm Map</li>
+                        <li className="intro2-list">YouTube Learning Videos</li>
+                        <li className="intro2-list">User-Friendly Interface</li>
                     </ul>
                 </div>
                 <div className="intro3 col-3">
                     <h4 className="intro-title">Technologies Used</h4>
-                    <p className="intro3-txt">React.js, Bootstrap, JSX, CSS</p>
+                    <p className="intro3-txt">React.js, TypeScript, Bootstrap, JSX, CSS</p>
                 </div>
                 <div className="intro4 col-5">
                     <h4 className="intro-title">Challenges and Solutions</h4>
-                    <p className="intro4-txt">Initially, integrating the News API smoothly posed a challenge, requiring optimizations for efficient data retrieval and rendering.
-                        This was addressed through meticulous code refinement and the implementation of streamlined data fetching processes.</p>
+                    <p className="intro4-txt">
+                        Designing the brainstorm map and ensuring smooth appearance and disappearance of connecting lines were difficult.
+                        Writing dynamic JavaScript to position elements added complexity.
+                        Adopted an iterative design approach with regular feedback to refine the map.
+                        Used advanced JavaScript techniques and libraries to manage dynamic elements effectively.
+                    </p>
                 </div>
             </div>
             <div className="progress-container">
                 <h1 className="progress-title">Project Development Timeline</h1>
                 <div className="progress-item">
-                    <h3 className="item1">Week 1: Setup and API Integration</h3>
-                    <p className="item-txt">Set up the project environment, including React components and dependencies.
-                        Integrated News API endpoints to fetch news articles based on selected categories.
-                        Designed and implemented the basic UI for displaying news headlines.</p>
+                    <h3 className="item1">Week 1: Research and Design</h3>
+                    <p className="item-txt">
+                        Focused on gathering project requirements, exploring UI design concepts, and planning project architecture.
+                        Tasks included defining scope, researching brainstorm map implementation, and outlining project structure.
+                        Established a detailed design plan for guiding development.
+                    </p>
                 </div>
                 <div className="progress-item">
                     <h3 className="item2">Week 2: Refinement, Testing, and Deployment</h3>
-                    <p className="item-txt">Refined the user interface and added features such as pagination or infinite scrolling.
+                    <p className="item-txt">Focused on refining the positioning of lines in the brainstorm map and adding CSS effects to enhance the user interface.
+                        Successfully deployed the project using Netlify, ensuring accessibility and performance optimizations were in place.
                         Conducted testing to ensure proper functionality across different browsers and devices.
                         Addressed any bugs or issues identified during testing.
-                        Prepared the project for deployment. However, due to new restrictions from NewsAPI that prevent data fetching from browsers and only allow localhost access,
-                        the project could not be fully deployed as intended.
                     </p>
                 </div>
             </div>
@@ -65,21 +71,21 @@ export default function ReactGuideProject() {
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <h5 className="w-title">Select Your Preferred Category on Navigation Bar</h5>
+                            <h5 className="w-title">Welcome to the React Beginner's Guide</h5>
                             <img src={Guide1} className="d-block w-100 w-img" alt="..."/>
                         </div>
                         <div className="carousel-item">
-                            <h5 className="w-title">Access Latest News with a Single Click</h5>
+                            <h5 className="w-title">Learn React Through YouTube Tutorials</h5>
                             <img src={Guide2} className="d-block w-100 w-img" alt="..."/>
                         </div>
                         <div className="carousel-item">
-                            <h5 className="w-title">Explore More News: Simply Click to Load</h5>
+                            <h5 className="w-title">Explore React by Keywords: Click Topics for Detailed Knowledge</h5>
                             <div className="w3-img-container">
                                 <img src={Guide3} className="d-block w-100 w3-img" alt="..."/>
                             </div>
                         </div>
                         <div className="carousel-item">
-                            <h5 className="w-title">Explore More News: Simply Click to Load</h5>
+                            <h5 className="w-title">Learn React with Explanations and Examples</h5>
                             <div className="w3-img-container">
                                 <img src={Guide4} className="d-block w-100 w3-img" alt="..."/>
                             </div>
@@ -96,7 +102,7 @@ export default function ReactGuideProject() {
                 </div>
             </div>
 
-            <button className="btn btn-dark d-grid">
+            <button className="btn btn-dark d-grid learn-btn">
                 <a href="https://main--react-guide-platform.netlify.app/" className="link-to-news">
                     Learn More
                 </a>

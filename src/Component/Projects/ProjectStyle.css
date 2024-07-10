@@ -340,3 +340,7 @@
     text-decoration: none;
     color: white;
 }
+
+.learn-btn {
+    border-radius: 0 0 8px 8px;
+}

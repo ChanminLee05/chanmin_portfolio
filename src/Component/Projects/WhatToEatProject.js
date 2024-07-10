@@ -106,7 +106,7 @@ export default function WhatToEatProject() {
               </div>
           </div>
 
-          <button className="btn btn-dark d-grid">
+          <button className="btn btn-dark d-grid learn-btn">
               <Link to="https://what-to-eat-roulette.netlify.app/" className="what-to-eat-link">
                   Learn More
               </Link>

@@ -182,7 +182,7 @@ export default function ChatBotProject() {
                 </div>
             </div>
 
-            <button className="btn btn-dark d-grid">
+            <button className="btn btn-dark d-grid learn-btn">
                 <Link to="https://nexushub-mall.netlify.app" className="what-to-eat-link">
                     Learn More
                 </Link>

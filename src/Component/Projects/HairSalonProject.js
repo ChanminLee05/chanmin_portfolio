@@ -107,7 +107,7 @@ const HairSalonProject = () => {
                 </div>
             </div>
 
-            <button className="btn btn-dark d-grid">
+            <button className="btn btn-dark d-grid learn-btn">
                 <a href="https://main--shine-hair-salon.netlify.app//" className="link-to-news">
                     Learn More
                 </a>
