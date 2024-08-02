@@ -13,7 +13,8 @@ import HairMain from '../Assets/hair-salon-main.png';
 import HairSalon from '../Assets/hair-salon.png';
 import ReactGuide from '../Assets/react-guide.PNG';
 import ReactImg from '../Assets/react.png';
-
+import Conversion from '../Assets/conversion-page.PNG';
+import Calculator from '../Assets/calculator.png';
 export default function WorkPage() {
 
     useEffect(() => {
@@ -167,6 +168,27 @@ export default function WorkPage() {
                                 <p className="project-type-txt">Individual</p>
                             </div>
                             <img src={NewsImg} alt="news" className="custom-img news-img"></img>
+                        </div>
+                    </Link>
+                </div>
+                <div className="card card7">
+                    <Link to="/ConversionCalculator" className="card-link">
+                        <img src={Conversion} className="card-img-top project-img" alt="roulette"/>
+                        <div className="card-body">
+                            <h3 className="card-title">Conversion Calculator Project</h3>
+                            <div className="skill-used">
+                                <h5 className="skill-title">Skills</h5>
+                                <p className="skill-txt">React, Typescript, JSX, CSS</p>
+                            </div>
+                            <div className="duration">
+                                <h5 className="duration-title">Duration</h5>
+                                <p className="duration-txt">1 day</p>
+                            </div>
+                            <div className="project-type">
+                                <h5 className="project-type-title">Project Type</h5>
+                                <p className="project-type-txt">Individual</p>
+                            </div>
+                            <img src={Calculator} alt="news" className="custom-img news-img"></img>
                         </div>
                     </Link>
                 </div>
